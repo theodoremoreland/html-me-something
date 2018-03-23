@@ -1,15 +1,151 @@
 html {
 	margin: 0;
 	padding: 0;
-	}
-body { 
-	font: 100% georgia, sans-serif;
-	line-height: 1.88889;
-	color: #555753; 
-	background: #fff 
-	margin: 0; 
-	padding: 0;
+        background-color: black;
 	}
 
+
+article {
+        
+        background-color: black;
+        background: radial-gradient(circle, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+        border: 4px white solid;
+}
+
+h1 {
+text-shadow: 2px 2px black;
+background: linear-gradient(56deg, #d9d500, #ff0000, #ff7e00, #ff00d4);
+background-size: 100% 100%;
+
+
+}
+
+.serious {
+        box-shadow: 2px 2px;
+        width: 1125px;
+        height: 336px;
+        display: inline-block;
+        background: url("https://i.imgur.com/PVhZSPo.jpg?1") no-repeat;
+        background-color: black;
+
+}
+
+.serious:hover {
+
+         transition: 0.2s;
+         background: url("https://i.imgur.com/6mym8al.jpg?1") no-repeat;
+         background-color: black;
+
+}
+
+
+body { 
+	font: 120% georgia, sans-serif;
+	line-height: 1.88889;
+	color: white; 
+	background: #fff 
+	margin: 0; 
+	padding: 100px;
+        text-align: center;
+        background-image: url(http://www.wallpapercraze.com/images/wallpapers/lancerclone-36705.jpeg);
+        background-repeat: repeat;
+        background-attachment: fixed;  
+        
+}
+
+
+        
+        
+
+
+p {
+    text-align: center;
+    border: 2px red solid;
+    background-color: black;
+}
+
+
+#Quad {
+        display: inline-block;
+        width: 720px;
+        height: 406px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        background: url("https://i.imgur.com/wRlvtdt.jpg?1") no-repeat;
+        
+
+}
+
+
+#Quad:hover {
+
+         transition: 0.2s;
+         background: url("https://i.imgur.com/TBLIgqQ.gif") no-repeat;
+
+}
+
+
+#Triple {
+        display: inline-block;
+        width: 720px;
+        height: 406px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        background: url("https://i.imgur.com/NSpQZvT.jpg?1") no-repeat;
+        
+
+}
+
+
+#Triple:hover {
+
+         transition: 0.2s;
+         background: url("https://i.imgur.com/puKdqYy.gif") no-repeat;
+
+}
+
+
+#Blitz {
+        display: inline-block;
+        width: 720px;
+        height: 406px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        background: url("https://i.imgur.com/goNV6ua.jpg?1") no-repeat;
+        
+
+}
+
+
+#Blitz:hover {
+
+         transition: 0.2s;
+         background: url("https://i.imgur.com/gFaclWU.gif") no-repeat;
+
+}
+
+
+#Boom {
+        display: inline-block;
+        width: 720px;
+        height: 406px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        background: url("https://i.imgur.com/JJShs56.jpg?1") no-repeat;
+        
+
+}
+
+
+#Boom:hover {
+
+         transition: 0.2s;
+         background: url("https://i.imgur.com/nP4NARh.gif") no-repeat;
+
+}
 
 
