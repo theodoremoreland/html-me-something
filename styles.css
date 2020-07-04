@@ -25,7 +25,7 @@ background-size: 100% 100%;
         width: 1125px;
         height: 336px;
         display: inline-block;
-        background: url("https://i.imgur.com/PVhZSPo.jpg?1") no-repeat;
+        background: url("images/serious.jpg") no-repeat;
         background-color: black;
 
 }
@@ -33,7 +33,7 @@ background-size: 100% 100%;
 .serious:hover {
 
          transition: 0.2s;
-         background: url("https://i.imgur.com/6mym8al.jpg?1") no-repeat;
+         background: url("images/serious-hover.jpg") no-repeat;
          background-color: black;
 
 }
@@ -47,7 +47,7 @@ body {
 	margin: 0; 
 	padding: 100px;
         text-align: center;
-        background-image: url(http://www.wallpapercraze.com/images/wallpapers/lancerclone-36705.jpeg);
+        background-image: url("images/lancerclone.jpg");
         background-repeat: repeat;
         background-attachment: fixed;  
         
@@ -72,7 +72,7 @@ p {
         margin-left: auto;
         margin-right: auto;
         
-        background: url("https://i.imgur.com/wRlvtdt.jpg?1") no-repeat;
+        background: url("images/Quad.jpg") no-repeat;
         
 
 }
@@ -81,7 +81,7 @@ p {
 #Quad:hover {
 
          transition: 0.2s;
-         background: url("https://i.imgur.com/TBLIgqQ.gif") no-repeat;
+         background: url("images/Quad-hover.gif") no-repeat;
 
 }
 
@@ -93,7 +93,7 @@ p {
         margin-left: auto;
         margin-right: auto;
         
-        background: url("https://i.imgur.com/NSpQZvT.jpg?1") no-repeat;
+        background: url("images/Triple.jpg") no-repeat;
         
 
 }
@@ -102,7 +102,7 @@ p {
 #Triple:hover {
 
          transition: 0.2s;
-         background: url("https://i.imgur.com/puKdqYy.gif") no-repeat;
+         background: url("images/Triple-hover.gif") no-repeat;
 
 }
 
@@ -114,7 +114,7 @@ p {
         margin-left: auto;
         margin-right: auto;
         
-        background: url("https://i.imgur.com/goNV6ua.jpg?1") no-repeat;
+        background: url("images/Blitz.jpg") no-repeat;
         
 
 }
@@ -123,7 +123,7 @@ p {
 #Blitz:hover {
 
          transition: 0.2s;
-         background: url("https://i.imgur.com/gFaclWU.gif") no-repeat;
+         background: url("images/Blitz-hover.gif") no-repeat;
 
 }
 
@@ -135,7 +135,7 @@ p {
         margin-left: auto;
         margin-right: auto;
         
-        background: url("https://i.imgur.com/JJShs56.jpg?1") no-repeat;
+        background: url("images/Boom.jpg") no-repeat;
         
 
 }
@@ -144,7 +144,7 @@ p {
 #Boom:hover {
 
          transition: 0.2s;
-         background: url("https://i.imgur.com/nP4NARh.gif") no-repeat;
+         background: url("images/Boom-hover.gif") no-repeat;
 
 }
 
