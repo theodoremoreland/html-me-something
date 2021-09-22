@@ -1,3 +1,26 @@
+/* ------------------- VARIABLES ------------------- */
+
+:root {
+    --header-xxl: 4rem header;
+    --header-xl: 2.8rem header;
+    --header-large: 2.25rem header;
+    --header-medium: 1.85rem header;
+    --header-small: 1.5rem header;
+    --header-xs: 1.2rem header;
+
+    --body-xxl: 1.8rem body;
+    --body-xl: 1.5rem body;
+    --body-large: 1.23rem body;
+    --body-medium: 1rem body;
+    --body-small: 0.9rem body;
+    --body-xs: 0.7rem body;
+
+    --accent-medium: 1rem accent;
+    --accent-small: 0.8rem accent;
+}
+
+/* ------------------- GLOBAL ------------------- */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -115,4 +138,35 @@ p {
 #boom:hover {
     transition: 0.2s;
     background: url("../images/boom-hover.gif") no-repeat;
+}
+
+/* ------------------- MEDIA QUERIES ------------------- */
+
+@media screen and (min-width: 320px) {
+
+}
+
+@media screen and (min-width: 481px) {
+ 
+}
+
+@media screen and (min-width: 769px) {
+
+}
+
+@media screen and (min-width: 1025px) {
+
+}
+
+@media screen and (min-width: 1366px) {
+
+}
+
+@media screen and (min-width: 1814px) {
+
+}
+
+
+@media screen and (min-width: 3200px) {
+
 }
