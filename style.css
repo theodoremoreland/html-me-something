@@ -57,7 +57,7 @@ p {
     background-color: black;
 }
 
-#Triple, #Quad, #Boom, #Blitz {
+#triple, #quad, #boom, #blitz {
     display: inline-block;
     width: 720px;
     height: 406px;
@@ -65,42 +65,42 @@ p {
     margin-right: auto; 
 }
 
-#Quad {
-    background: url("images/Quad.jpg") no-repeat;
+#quad {
+    background: url("images/quad.jpg") no-repeat;
 }
 
-#Quad:hover {
+#quad:hover {
     transition: 0.2s;
-    background: url("images/Quad-hover.gif") no-repeat;
+    background: url("images/quad-hover.gif") no-repeat;
 }
 
-#Triple {
-    background: url("images/Triple.jpg") no-repeat;
+#triple {
+    background: url("images/triple.jpg") no-repeat;
 }
 
 
-#Triple:hover {
+#triple:hover {
     transition: 0.2s;
-    background: url("images/Triple-hover.gif") no-repeat;
+    background: url("images/triple-hover.gif") no-repeat;
 }
 
 
-#Blitz {
-    background: url("images/Blitz.jpg") no-repeat;
+#blitz {
+    background: url("images/blitz.jpg") no-repeat;
 }
 
-#Blitz:hover {
+#blitz:hover {
     transition: 0.2s;
-    background: url("images/Blitz-hover.gif") no-repeat;
+    background: url("images/blitz-hover.gif") no-repeat;
 }
 
-#Boom {
-    background: url("images/Boom.jpg") no-repeat;
+#boom {
+    background: url("images/boom.jpg") no-repeat;
 }
 
-#Boom:hover {
+#boom:hover {
     transition: 0.2s;
-    background: url("images/Boom-hover.gif") no-repeat;
+    background: url("images/boom-hover.gif") no-repeat;
 }
 
 
