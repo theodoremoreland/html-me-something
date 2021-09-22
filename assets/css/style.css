@@ -160,10 +160,20 @@ footer {
 /* ------------------- MEDIA QUERIES ------------------- */
 
 @media screen and (min-width: 320px) {
-
+    .gameplay-image {
+        min-height: 200px;
+    }
+ 
 }
 
 @media screen and (min-width: 481px) {
+    .hero {
+        height: 250px;
+    }
+
+    .gameplay-image {
+        min-height: 250px;
+    }
  
 }
 
@@ -208,7 +218,32 @@ footer {
 }
 
 @media screen and (min-width: 1025px) {
+    h1 {
+        font: var(--header-medium);
+    }
+    
+    h2 {
+        font: var(--header-small);
+    }
+    
+    p {
+        font: var(--body-medium);
+        line-height: 1.5;
+        padding: 15px 15px;
+    }
+    
+    footer {
+        font: var(--accent-medium);
+    }
 
+    .hero {
+        height: 325px;
+        background-size: initial;
+    }
+
+    .gameplay-image {
+        min-height: 300px;
+    }
 }
 
 @media screen and (min-width: 1366px) {
