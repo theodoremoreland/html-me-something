@@ -1,3 +1,22 @@
+/* BASE DESIGN BASED ON APPEARENCE ON GALAXY FOLD (280px) */
+
+/* ___________________ FONTS ____________________________ */
+
+@font-face {
+    font-family: header;
+    src: url('../fonts/CinzelDecorative-Bold.ttf');
+}
+  
+@font-face {
+    font-family: body;
+    src: url('../fonts/CinzelDecorative-Regular.ttf');
+}
+    
+@font-face {
+    font-family: accent;
+    src: url('../fonts/CinzelDecorative-Black.ttf');
+}
+
 /* ------------------- VARIABLES ------------------- */
 
 :root {
@@ -31,10 +50,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font: 1.8rem georgia, sans-serif;
-    line-height: 1.88889;
     color: white; 
-    text-align: center;
     background-repeat: repeat;
     background-attachment: fixed;    
     background-color: black;
@@ -46,8 +62,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    border: 4px white solid;
+    width: 87%;
+    border: 2px white solid;
+    margin-top: 30px;
 }
 
 header {
@@ -59,21 +76,26 @@ article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     background-color: black;
     background: radial-gradient(circle, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 
 h1 {
+    font: var(--header-small);
     text-shadow: 2px 2px black;
     background: linear-gradient(56deg, #d9d500, #ff0000, #ff7e00);
     background-size: 100% 100%;
 }
 
 h2 {
+    font: var(--header-xs);
     margin: 0;
 }
 
 p {
+    font: var(--body-small);
+    line-height: 1.8888;
     text-align: center;
     border: 2px red solid;
     background-color: black;
@@ -98,46 +120,46 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 720px;
-    height: 406px;
+    width: 100%;
+    height: 100px;
 }
 
 #quad {
-    background: url("../images/quad.jpg") no-repeat;
+    background-image: url("../images/quad.jpg");
 }
 
 #quad:hover {
     transition: 0.2s;
-    background: url("../images/quad-hover.gif") no-repeat;
+    background: url("../images/quad-hover.gif");
 }
 
 #triple {
-    background: url("../images/triple.jpg") no-repeat;
+    background: url("../images/triple.jpg");
 }
 
 
 #triple:hover {
     transition: 0.2s;
-    background: url("../images/triple-hover.gif") no-repeat;
+    background-image: url("../images/triple-hover.gif");
 }
 
 
 #blitz {
-    background: url("../images/blitz.jpg") no-repeat;
+    background-image: url("../images/blitz.jpg");
 }
 
 #blitz:hover {
     transition: 0.2s;
-    background: url("../images/blitz-hover.gif") no-repeat;
+    background-image: url("../images/blitz-hover.gif");
 }
 
 #boom {
-    background: url("../images/boom.jpg") no-repeat;
+    background-image: url("../images/boom.jpg");
 }
 
 #boom:hover {
     transition: 0.2s;
-    background: url("../images/boom-hover.gif") no-repeat;
+    background-image: url("../images/boom-hover.gif");
 }
 
 /* ------------------- MEDIA QUERIES ------------------- */
