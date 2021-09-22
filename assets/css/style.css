@@ -103,9 +103,12 @@ p {
 
 .hero {
     width: 100%;
-    height: 336px;
-    background-image: url("../images/serious.jpg");
+    height: 100px;
     background-color: black;
+    background-image: url("../images/serious.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     border-bottom: 2px solid white;
 }
 
@@ -121,44 +124,26 @@ p {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100px;
+    min-height: 150px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #quad {
-    background-image: url("../images/quad.jpg");
+    background-image: url("../images/quad-hover.gif");
 }
 
-#quad:hover {
-    transition: 0.2s;
-    background: url("../images/quad-hover.gif");
-}
 
 #triple {
-    background: url("../images/triple.jpg");
-}
-
-
-#triple:hover {
-    transition: 0.2s;
     background-image: url("../images/triple-hover.gif");
 }
 
-
 #blitz {
-    background-image: url("../images/blitz.jpg");
-}
-
-#blitz:hover {
-    transition: 0.2s;
     background-image: url("../images/blitz-hover.gif");
 }
 
 #boom {
-    background-image: url("../images/boom.jpg");
-}
-
-#boom:hover {
-    transition: 0.2s;
     background-image: url("../images/boom-hover.gif");
 }
 
@@ -173,7 +158,43 @@ p {
 }
 
 @media screen and (min-width: 769px) {
-
+    #quad {
+        background-image: url("../images/quad.jpg");
+    }
+    
+    #quad:hover {
+        transition: 0.2s;
+        background-image: url("../images/quad-hover.gif");
+    }
+    
+    #triple {
+        background-image: url("../images/triple.jpg");
+    }
+    
+    
+    #triple:hover {
+        transition: 0.2s;
+        background-image: url("../images/triple-hover.gif");
+    }
+    
+    
+    #blitz {
+        background-image: url("../images/blitz.jpg");
+    }
+    
+    #blitz:hover {
+        transition: 0.2s;
+        background-image: url("../images/blitz-hover.gif");
+    }
+    
+    #boom {
+        background-image: url("../images/boom.jpg");
+    }
+    
+    #boom:hover {
+        transition: 0.2s;
+        background-image: url("../images/boom-hover.gif");
+    }
 }
 
 @media screen and (min-width: 1025px) {
