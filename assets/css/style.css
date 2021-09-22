@@ -141,20 +141,20 @@ footer {
 }
 
 #quad {
-    background-image: url("../images/quad-hover.gif");
+    background-image: url("../images/Quad-hover.gif");
 }
 
 
 #triple {
-    background-image: url("../images/triple-hover.gif");
+    background-image: url("../images/Triple-hover.gif");
 }
 
 #blitz {
-    background-image: url("../images/blitz-hover.gif");
+    background-image: url("../images/Blitz-hover.gif");
 }
 
 #boom {
-    background-image: url("../images/boom-hover.gif");
+    background-image: url("../images/Boom-hover.gif");
 }
 
 /* ------------------- MEDIA QUERIES ------------------- */
@@ -179,41 +179,41 @@ footer {
 
 @media screen and (min-width: 769px) {
     #quad {
-        background-image: url("../images/quad.jpg");
+        background-image: url("../images/Quad.jpg");
     }
     
     #quad:hover {
         transition: 0.2s;
-        background-image: url("../images/quad-hover.gif");
+        background-image: url("../images/Quad-hover.gif");
     }
     
     #triple {
-        background-image: url("../images/triple.jpg");
+        background-image: url("../images/Triple.jpg");
     }
     
     
     #triple:hover {
         transition: 0.2s;
-        background-image: url("../images/triple-hover.gif");
+        background-image: url("../images/Triple-hover.gif");
     }
     
     
     #blitz {
-        background-image: url("../images/blitz.jpg");
+        background-image: url("../images/Blitz.jpg");
     }
     
     #blitz:hover {
         transition: 0.2s;
-        background-image: url("../images/blitz-hover.gif");
+        background-image: url("../images/Blitz-hover.gif");
     }
     
     #boom {
-        background-image: url("../images/boom.jpg");
+        background-image: url("../images/Boom.jpg");
     }
     
     #boom:hover {
         transition: 0.2s;
-        background-image: url("../images/boom-hover.gif");
+        background-image: url("../images/Boom-hover.gif");
     }
 }
 
