@@ -63,6 +63,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 87%;
+    max-width: 1200px;
     border: 2px white solid;
     margin-top: 25px;
 }
@@ -98,7 +99,6 @@ h2 {
 p {
     font: var(--body-small);
     line-height: 1.8888;
-    /* text-align: center; */
     text-justify: inter-word;
     border-top: 1px red solid;
     border-bottom: 1px red solid;
@@ -247,14 +247,20 @@ footer {
 }
 
 @media screen and (min-width: 1366px) {
+    h1 {
+        font: var(--header-large);
+    }
+    
+    h2 {
+        font: var(--header-medium);
+    }
+    
+    p {
+        font: var(--body-large);
+        line-height: 1.5;
+    }
 
-}
-
-@media screen and (min-width: 1814px) {
-
-}
-
-
-@media screen and (min-width: 3200px) {
-
+    .gameplay-image {
+        min-height: 400px;
+    }
 }
