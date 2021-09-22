@@ -12,7 +12,7 @@ body {
     margin: 0; 
     padding: 100px;
     text-align: center;
-    background-image: url("images/lancerclone.jpg");
+    background-image: url("../images/lancerclone.jpg");
     background-repeat: repeat;
     background-attachment: fixed;    
 }
@@ -47,13 +47,13 @@ p {
     width: 100%;
     height: 336px;
     display: inline-block;
-    background: url("images/serious.jpg") no-repeat;
+    background: url("../images/serious.jpg") no-repeat;
     background-color: black;
 }
 
 .serious:hover {
     transition: 0.2s;
-    background: url("images/serious-hover.jpg") no-repeat;
+    background: url("../images/serious-hover.jpg") no-repeat;
     background-color: black;
 }
 
@@ -66,41 +66,41 @@ p {
 }
 
 #quad {
-    background: url("images/quad.jpg") no-repeat;
+    background: url("../images/quad.jpg") no-repeat;
 }
 
 #quad:hover {
     transition: 0.2s;
-    background: url("images/quad-hover.gif") no-repeat;
+    background: url("../images/quad-hover.gif") no-repeat;
 }
 
 #triple {
-    background: url("images/triple.jpg") no-repeat;
+    background: url("../images/triple.jpg") no-repeat;
 }
 
 
 #triple:hover {
     transition: 0.2s;
-    background: url("images/triple-hover.gif") no-repeat;
+    background: url("../images/triple-hover.gif") no-repeat;
 }
 
 
 #blitz {
-    background: url("images/blitz.jpg") no-repeat;
+    background: url("../images/blitz.jpg") no-repeat;
 }
 
 #blitz:hover {
     transition: 0.2s;
-    background: url("images/blitz-hover.gif") no-repeat;
+    background: url("../images/blitz-hover.gif") no-repeat;
 }
 
 #boom {
-    background: url("images/boom.jpg") no-repeat;
+    background: url("../images/boom.jpg") no-repeat;
 }
 
 #boom:hover {
     transition: 0.2s;
-    background: url("images/boom-hover.gif") no-repeat;
+    background: url("../images/boom-hover.gif") no-repeat;
 }
 
 
