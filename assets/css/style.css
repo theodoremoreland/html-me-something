@@ -64,7 +64,7 @@ main {
     align-items: center;
     width: 87%;
     border: 2px white solid;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 header {
@@ -84,21 +84,31 @@ article {
 h1 {
     font: var(--header-small);
     text-shadow: 2px 2px black;
+    text-align: center;
     background: linear-gradient(56deg, #d9d500, #ff0000, #ff7e00);
     background-size: 100% 100%;
 }
 
 h2 {
-    font: var(--header-xs);
     margin: 0;
+    font: var(--header-xs);
+    text-align: center;
 }
 
 p {
     font: var(--body-small);
     line-height: 1.8888;
-    text-align: center;
-    border: 2px red solid;
+    /* text-align: center; */
+    text-justify: inter-word;
+    border-top: 1px red solid;
+    border-bottom: 1px red solid;
+    padding: 15px 5px;
     background-color: black;
+}
+
+footer {
+    font: var(--accent-small);
+    margin: 25px 0px;
 }
 
 .hero {
