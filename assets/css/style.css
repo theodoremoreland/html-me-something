@@ -1,27 +1,41 @@
-html {
+html, body {
     margin: 0;
     padding: 0;
-    background-color: black;
 }
 
 body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font: 1.8rem georgia, sans-serif;
     line-height: 1.88889;
     color: white; 
-    background: #fff;
-    margin: 0; 
-    padding: 100px;
     text-align: center;
-    background-image: url("../images/lancerclone.jpg");
     background-repeat: repeat;
     background-attachment: fixed;    
+    background-color: black;
+    background-image: url("../images/lancerclone.jpg");
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     border: 4px white solid;
 }
 
+header {
+    width: 100%;
+}
+
 article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     background: radial-gradient(circle, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
@@ -33,7 +47,7 @@ h1 {
 }
 
 h2 {
-    margin: 0%;
+    margin: 0;
 }
 
 p {
@@ -42,27 +56,27 @@ p {
     background-color: black;
 }
 
-.serious {
-    box-shadow: 2px 2px;
+.hero {
     width: 100%;
     height: 336px;
-    display: inline-block;
-    background: url("../images/serious.jpg") no-repeat;
+    background-image: url("../images/serious.jpg");
     background-color: black;
+    border-bottom: 2px solid white;
 }
 
-.serious:hover {
+.hero:hover {
     transition: 0.2s;
-    background: url("../images/serious-hover.jpg") no-repeat;
+    background-image: url("../images/serious-hover.jpg");
     background-color: black;
 }
 
-#triple, #quad, #boom, #blitz {
-    display: inline-block;
+.gameplay-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 720px;
     height: 406px;
-    margin-left: auto;
-    margin-right: auto; 
 }
 
 #quad {
@@ -102,5 +116,3 @@ p {
     transition: 0.2s;
     background: url("../images/boom-hover.gif") no-repeat;
 }
-
-
