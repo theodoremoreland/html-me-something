@@ -1,7 +1,7 @@
 # html-me-something
 
 This was my very first webpage. It was created in 2018 for a homework assignment that required some basic
-usage of HTML and CSS. I have updated the page a few times since its creation such as making the page resposnive, correcting errors, refactoring, and deploying.
+usage of HTML and CSS. I have updated the page a few times since its creation such as making the page responsive and refactoring.
 
 Screenshots of the webpage can be found below, but you can also get the full experience by visiting the webpage @ 
 https://theodoremoreland.github.io/html-me-something/
