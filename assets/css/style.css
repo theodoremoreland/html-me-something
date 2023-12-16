@@ -3,264 +3,232 @@
 /* ___________________ FONTS ____________________________ */
 
 @font-face {
-    font-family: header;
-    src: url('../fonts/Montserrat-Bold.ttf');
+  font-family: header;
+  src: url("../fonts/Montserrat-Bold.ttf");
 }
-  
+
 @font-face {
-    font-family: body;
-    src: url('../fonts/Montserrat-Medium.ttf');
+  font-family: body;
+  src: url("../fonts/Montserrat-Medium.ttf");
 }
-    
+
 @font-face {
-    font-family: accent;
-    src: url('../fonts/Montserrat-Light.ttf');
+  font-family: accent;
+  src: url("../fonts/Montserrat-Light.ttf");
 }
 
 /* ------------------- VARIABLES ------------------- */
 
 :root {
-    --header-xxl: 4rem header;
-    --header-xl: 2.8rem header;
-    --header-large: 2.25rem header;
-    --header-medium: 1.85rem header;
-    --header-small: 1.5rem header;
-    --header-xs: 1.2rem header;
+  --header-xxl: 4rem header;
+  --header-xl: 2.8rem header;
+  --header-large: 2.25rem header;
+  --header-medium: 1.85rem header;
+  --header-small: 1.5rem header;
+  --header-xs: 1.2rem header;
 
-    --body-xxl: 1.8rem body;
-    --body-xl: 1.5rem body;
-    --body-large: 1.23rem body;
-    --body-medium: 1rem body;
-    --body-small: 0.9rem body;
-    --body-xs: 0.7rem body;
+  --body-xxl: 1.8rem body;
+  --body-xl: 1.5rem body;
+  --body-large: 1.23rem body;
+  --body-medium: 1rem body;
+  --body-small: 0.9rem body;
+  --body-xs: 0.7rem body;
 
-    --accent-medium: 1rem accent;
-    --accent-small: 0.8rem accent;
+  --accent-medium: 1rem accent;
+  --accent-small: 0.8rem accent;
 }
 
 /* ------------------- GLOBAL ------------------- */
 
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-body { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white; 
-    background-repeat: repeat;
-    background-attachment: fixed;    
-    background-color: black;
-    background-image: url("../images/lancerclone.jpg");
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#fixed-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 135vh;
+  background-repeat: repeat;
+  background-size: cover;
+  background-color: black;
+  background-image: url("../images/lancerclone.jpg");
+  z-index: -1;
+  overflow: hidden;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 87%;
-    max-width: 1110px;
-    border: 2px white solid;
-    margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 87%;
+  max-width: 1110px;
+  border: 2px white solid;
+  margin-top: 25px;
 }
 
 header {
-    width: 100%;
+  width: 100%;
 }
 
 article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: black;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 
 h1 {
-    font: var(--header-small);
-    text-shadow: 2px 2px black;
-    text-align: center;
-    background: linear-gradient(56deg, #d9d500, #ff0000, #ff7e00);
-    background-size: 100% 100%;
+  font: var(--header-small);
+  text-shadow: 2px 2px black;
+  text-align: center;
+  background: linear-gradient(56deg, #d9d500, #ff0000, #ff7e00);
+  background-size: 100% 100%;
 }
 
 h2 {
-    margin: 0;
-    font: var(--header-xs);
-    text-align: center;
+  margin: 0;
+  font: var(--header-xs);
+  text-align: center;
 }
 
 p {
-    font: var(--body-small);
-    line-height: 1.8888;
-    text-justify: inter-word;
-    border-top: 1px red solid;
-    border-bottom: 1px red solid;
-    padding: 15px 5px;
-    background-color: black;
+  font: var(--body-small);
+  line-height: 1.8888;
+  text-justify: inter-word;
+  border-top: 1px red solid;
+  border-bottom: 1px red solid;
+  padding: 15px 5px;
+  background-color: black;
 }
 
 footer {
-    font: var(--accent-small);
-    margin: 25px 0px;
+  font: var(--accent-small);
+  margin: 25px 0px;
 }
 
 .hero {
-    width: 100%;
-    height: 100px;
-    background-color: black;
-    background-image: url("../images/serious.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-bottom: 2px solid white;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  background-image: url("../images/serious.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid white;
 }
 
 .hero:hover {
-    transition: 0.2s;
-    background-image: url("../images/serious-hover.jpg");
-    background-color: black;
+  transition: 0.2s;
+  background-image: url("../images/serious-hover.jpg");
+  background-color: black;
 }
 
 .gameplay-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 150px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 150px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #quad {
-    background-image: url("../images/Quad-hover.gif");
+  background-image: url("../images/Quad-hover.gif");
 }
 
-
 #triple {
-    background-image: url("../images/Triple-hover.gif");
+  background-image: url("../images/Triple-hover.gif");
 }
 
 #blitz {
-    background-image: url("../images/Blitz-hover.gif");
+  background-image: url("../images/Blitz-hover.gif");
 }
 
 #boom {
-    background-image: url("../images/Boom-hover.gif");
+  background-image: url("../images/Boom-hover.gif");
 }
 
 /* ------------------- MEDIA QUERIES ------------------- */
 
 @media screen and (min-width: 320px) {
-    .gameplay-image {
-        min-height: 200px;
-    }
- 
+  .gameplay-image {
+    min-height: 200px;
+  }
 }
 
 @media screen and (min-width: 481px) {
-    .hero {
-        height: 250px;
-    }
+  .hero {
+    height: 250px;
+  }
 
-    .gameplay-image {
-        min-height: 250px;
-    }
- 
-}
-
-@media screen and (min-width: 769px) {
-    #quad {
-        background-image: url("../images/Quad.jpg");
-    }
-    
-    #quad:hover {
-        transition: 0.2s;
-        background-image: url("../images/Quad-hover.gif");
-    }
-    
-    #triple {
-        background-image: url("../images/Triple.jpg");
-    }
-    
-    
-    #triple:hover {
-        transition: 0.2s;
-        background-image: url("../images/Triple-hover.gif");
-    }
-    
-    
-    #blitz {
-        background-image: url("../images/Blitz.jpg");
-    }
-    
-    #blitz:hover {
-        transition: 0.2s;
-        background-image: url("../images/Blitz-hover.gif");
-    }
-    
-    #boom {
-        background-image: url("../images/Boom.jpg");
-    }
-    
-    #boom:hover {
-        transition: 0.2s;
-        background-image: url("../images/Boom-hover.gif");
-    }
+  .gameplay-image {
+    min-height: 250px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
-    h1 {
-        font: var(--header-medium);
-    }
-    
-    h2 {
-        font: var(--header-small);
-    }
-    
-    p {
-        font: var(--body-medium);
-        line-height: 1.5;
-        padding: 15px 15px;
-    }
-    
-    footer {
-        font: var(--accent-medium);
-    }
+  h1 {
+    font: var(--header-medium);
+  }
 
-    .hero {
-        height: 325px;
-        background-size: initial;
-    }
+  h2 {
+    font: var(--header-small);
+  }
 
-    .gameplay-image {
-        min-height: 300px;
-    }
+  p {
+    font: var(--body-medium);
+    line-height: 1.5;
+    padding: 15px 15px;
+  }
+
+  footer {
+    font: var(--accent-medium);
+  }
+
+  .hero {
+    height: 325px;
+    background-size: initial;
+  }
+
+  .gameplay-image {
+    min-height: 300px;
+  }
 }
 
 @media screen and (min-width: 1366px) {
-    h1 {
-        font: var(--header-large);
-    }
-    
-    h2 {
-        font: var(--header-medium);
-    }
-    
-    p {
-        font: var(--body-large);
-        line-height: 1.5;
-    }
+  h1 {
+    font: var(--header-large);
+  }
 
-    .gameplay-image {
-        min-height: 400px;
-    }
+  h2 {
+    font: var(--header-medium);
+  }
+
+  p {
+    font: var(--body-large);
+    line-height: 1.5;
+  }
+
+  .gameplay-image {
+    min-height: 400px;
+  }
 }
