@@ -106,9 +106,7 @@ p {
   line-height: 1.8888;
   text-justify: inter-word;
   padding: 15px;
-  border-top: 1px var(--border-color) solid;
-  border-bottom: 1px var(--border-color) solid;
-  margin: 0 0 0.7rem 0;
+  margin: 1px 0;
   background-color: black;
 }
 
@@ -125,6 +123,16 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.p-wrapper {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0),
+    var(--background-color),
+    rgba(0, 0, 0, 0)
+  );
+  margin-bottom: 0.7rem;
 }
 
 .gameplay-image {
