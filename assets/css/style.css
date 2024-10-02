@@ -135,12 +135,6 @@ footer {
   border-bottom: 2px solid white;
 }
 
-.hero:hover {
-  transition: 0.2s;
-  background-image: url("../images/serious-hover.jpg");
-  background-color: black;
-}
-
 .gameplay-image {
   display: flex;
   flex-direction: column;
