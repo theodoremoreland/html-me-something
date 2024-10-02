@@ -20,22 +20,8 @@
 /* ------------------- VARIABLES ------------------- */
 
 :root {
-  --header-xxl: 4rem header;
-  --header-xl: 2.8rem header;
-  --header-large: 2.25rem header;
-  --header-medium: 1.85rem header;
-  --header-small: 1.5rem header;
-  --header-xs: 1.2rem header;
-
-  --body-xxl: 1.8rem body;
-  --body-xl: 1.5rem body;
-  --body-large: 1.23rem body;
-  --body-medium: 1rem body;
-  --body-small: 0.9rem body;
-  --body-xs: 0.7rem body;
-
-  --accent-medium: 1rem accent;
-  --accent-small: 0.8rem accent;
+  --background-color: #920300;
+  --border-color: #ff000042;
 }
 
 /* ------------------- GLOBAL ------------------- */
@@ -52,6 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+  background-color: var(--background-color);
 }
 
 #fixed-background {
@@ -66,6 +53,7 @@ body {
   background-image: url("../images/lancerclone.jpg");
   z-index: -1;
   overflow: hidden;
+  mix-blend-mode: multiply;
 }
 
 main {
@@ -75,7 +63,7 @@ main {
   align-items: center;
   width: 87%;
   max-width: 1110px;
-  border: 2px white solid;
+  border: 1px var(--border-color) solid;
   margin-top: 25px;
 }
 
@@ -94,45 +82,49 @@ article {
 }
 
 h1 {
-  font: var(--header-small);
+  font-family: header;
+  font-size: 1.45rem;
+  font-style: oblique;
   text-shadow: 2px 2px black;
   text-align: center;
-  background: linear-gradient(56deg, #d9d500, #ff0000, #ff7e00);
+  margin: 0;
+  background: linear-gradient(56deg, black, var(--background-color), black);
   background-size: 100% 100%;
 }
 
 h2 {
+  width: 100%;
   margin: 0;
-  font: var(--header-xs);
+  font-family: header;
+  font-size: 1.09rem;
   text-align: center;
-  padding: 0.7rem 0;
+  padding: 0.7rem;
 }
 
 p {
-  font: var(--body-small);
+  font-family: body;
   line-height: 1.8888;
   text-justify: inter-word;
-  padding: 15px 5px;
-  border-top: 1px red solid;
-  border-bottom: 1px red solid;
+  padding: 15px;
+  border-top: 1px var(--border-color) solid;
+  border-bottom: 1px var(--border-color) solid;
   margin: 0 0 0.7rem 0;
   background-color: black;
 }
 
 footer {
-  font: var(--accent-small);
+  font-family: accent;
   margin: 25px 0px;
 }
 
 .hero {
   width: 100%;
-  height: 100px;
+  height: 270px;
   background-color: black;
   background-image: url("../images/serious.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-bottom: 2px solid white;
 }
 
 .gameplay-image {
@@ -183,48 +175,37 @@ footer {
 
 @media screen and (min-width: 1025px) {
   h1 {
-    font: var(--header-medium);
+    font-size: 2rem;
   }
 
   h2 {
-    font: var(--header-small);
+    font-size: 1.5rem;
   }
 
   p {
-    font: var(--body-medium);
     line-height: 1.5;
-    padding: 15px 15px;
-  }
-
-  footer {
-    font: var(--accent-medium);
+    padding: 20px;
   }
 
   .hero {
-    height: 325px;
-    background-size: initial;
+    height: 350px;
   }
 
   .gameplay-image {
-    min-height: 300px;
+    height: 300px;
   }
 }
 
 @media screen and (min-width: 1366px) {
-  h1 {
-    font: var(--header-large);
-  }
-
-  h2 {
-    font: var(--header-medium);
-  }
-
   p {
-    font: var(--body-large);
     line-height: 1.5;
   }
 
+  .hero {
+    height: 375px;
+  }
+
   .gameplay-image {
-    min-height: 400px;
+    height: 350px;
   }
 }
