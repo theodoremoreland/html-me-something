@@ -1,20 +1,18 @@
-/* BASE DESIGN BASED ON APPEARENCE ON GALAXY FOLD (280px) */
-
 /* ___________________ FONTS ____________________________ */
 
 @font-face {
   font-family: header;
-  src: url("../fonts/Montserrat-Bold.ttf");
+  src: url("../fonts/SofiaSansCondensed-Bold.ttf");
 }
 
 @font-face {
   font-family: body;
-  src: url("../fonts/Montserrat-Medium.ttf");
+  src: url("../fonts/SofiaSansCondensed-Regular.ttf");
 }
 
 @font-face {
   font-family: accent;
-  src: url("../fonts/Montserrat-Light.ttf");
+  src: url("../fonts/SofiaSansCondensed-Light.ttf");
 }
 
 /* ------------------- VARIABLES ------------------- */
@@ -61,7 +59,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 87%;
+  width: 90%;
   max-width: 1110px;
   border: 1px var(--border-color) solid;
   margin-top: 25px;
@@ -83,10 +81,11 @@ article {
 
 h1 {
   font-family: header;
-  font-size: 1.45rem;
+  font-size: 2.2rem;
   font-style: oblique;
   text-shadow: 2px 2px black;
   text-align: center;
+  padding: 0 0.7rem;
   margin: 0;
   background: linear-gradient(56deg, black, var(--background-color), black);
   background-size: 100% 100%;
@@ -96,13 +95,15 @@ h2 {
   width: 100%;
   margin: 0;
   font-family: header;
-  font-size: 1.09rem;
+  font-size: 1.9rem;
   text-align: center;
+  text-wrap: balance;
   padding: 0.7rem;
 }
 
 p {
   font-family: body;
+  font-size: 1.6rem;
   line-height: 1.8888;
   text-justify: inter-word;
   padding: 15px;
@@ -182,14 +183,6 @@ footer {
 }
 
 @media screen and (min-width: 1025px) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
   p {
     line-height: 1.5;
     padding: 20px;
