@@ -187,6 +187,10 @@ footer {
 }
 
 @media screen and (min-width: 1025px) {
+  main {
+    width: 85%;
+  }
+
   p {
     padding: 20px;
   }
@@ -202,7 +206,7 @@ footer {
 
 @media screen and (min-width: 1366px) {
   .hero {
-    height: 375px;
+    height: 450px;
   }
 
   .gameplay-image {
