@@ -104,7 +104,7 @@ h2 {
 p {
   font-family: body;
   font-size: 1.6rem;
-  line-height: 1.8888;
+  line-height: 1.5;
   text-justify: inter-word;
   padding: 15px;
   margin: 1px 0;
@@ -112,6 +112,10 @@ p {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
   font-family: accent;
   margin: 25px 0px;
 }
@@ -184,7 +188,6 @@ footer {
 
 @media screen and (min-width: 1025px) {
   p {
-    line-height: 1.5;
     padding: 20px;
   }
 
@@ -198,10 +201,6 @@ footer {
 }
 
 @media screen and (min-width: 1366px) {
-  p {
-    line-height: 1.5;
-  }
-
   .hero {
     height: 375px;
   }
