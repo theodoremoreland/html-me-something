@@ -8,30 +8,50 @@ Screenshots of the webpage can be found below.
 
 _This was for a homework assignment at LaunchCode's Lc101 (2018)._
 
-### Default view (mobile)
+## Table of contents
 
-<img src="presentation/1.PNG" width="200">
+- [Screenshots](#screenshots)
+  - [Desktop](#desktop)
+  - [Mobile](#mobile)
 
-### Default view (Tablet)
+## Screenshots
 
-<img src="presentation/2.PNG" width="350">
+### Desktop
 
-### Default view (Desktop)
+#### Top of page
 
-<img src="presentation/3.PNG" width="700">
+<img src="https://dj8eg5xs13hf6.cloudfront.net/html-me-something/1.png" width="650">
 
-### Desktop view 2
+#### Middle of page
 
-<img src="presentation/4.PNG" width="700">
+<img src="https://dj8eg5xs13hf6.cloudfront.net/html-me-something/2.png" width="650">
 
-### Desktop view 3
+#### Bottom of page
 
-<img src="presentation/5.PNG" width="700">
+<img src="https://dj8eg5xs13hf6.cloudfront.net/html-me-something/3.png" width="650">
 
-### Desktop view 4
+### Mobile
 
-<img src="presentation/6.PNG" width="700">
+#### Top of page
 
-### Desktop view 5
+<img src="https://dj8eg5xs13hf6.cloudfront.net/html-me-something/4.png" width="250">
 
-<img src="presentation/7.PNG" width="700">
+#### Scrolled down 1
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/html-me-something/5.png" width="250">
+
+#### Scrolled down 2
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/html-me-something/6.png" width="250">
+
+#### Scrolled down 3
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/html-me-something/7.png" width="250">
+
+#### Scrolled down 4
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/html-me-something/8.png" width="250">
+
+#### Bottom of page
+
+<img src="https://dj8eg5xs13hf6.cloudfront.net/html-me-something/9.png" width="250">
