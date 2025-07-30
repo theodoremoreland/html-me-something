@@ -1,6 +1,6 @@
 # html-me-something
 
-<img src="https://dj8eg5xs13hf6.cloudfront.net/html-me-something/1.png" width="650">
+<img src="presentation/thumbnail.webp" width="700">
 
 [Visit the webpage](https://theodoremoreland.github.io/html-me-something/)
 
