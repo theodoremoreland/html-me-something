@@ -24,6 +24,10 @@
 
 /* ------------------- GLOBAL ------------------- */
 
+html {
+    overscroll-behavior-y: none;
+}
+
 html,
 body {
     margin: 0;
