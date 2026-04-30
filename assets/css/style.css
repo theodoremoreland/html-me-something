@@ -64,7 +64,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 90%;
-    max-width: 1110px;
+    max-width: 1440px;
     border: 1px var(--border-color) solid;
     margin-top: 25px;
 }
@@ -110,9 +110,11 @@ p {
     font-size: 1.6rem;
     line-height: 1.5;
     text-justify: inter-word;
+    max-width: 75ch;
     padding: 15px;
     margin: 1px 0;
     background-color: black;
+    background: linear-gradient(56deg, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
 }
 
 footer {
